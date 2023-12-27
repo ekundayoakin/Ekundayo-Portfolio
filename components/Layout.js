@@ -11,11 +11,17 @@ const sora = Sora({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
 });
 
+// other imports
+import Head from "next/head";
+
 const Layout = ({ children }) => {
   return (
     <div
       className={`page bg-site text-white bg-cover bg-no-repeat ${sora.variable} font-sora relative`}
     >
+      <Head>
+        <link rel="icon" href="/E.A.svg" />
+      </Head>
       <TopLeftImg />
       <Nav />
       <Header />

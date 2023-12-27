@@ -37,7 +37,7 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Hey there! I'm Dayo. I dipped my toes into the vast ocean of
+            Hey there! I am Dayo. I dipped my toes into the vast ocean of
             programming back in 2019, but 2022? Ah, that's when I truly dove
             headfirst into the thrilling waves of Web development. From
             unraveling the web's mysteries to weaving its very threads, I've
